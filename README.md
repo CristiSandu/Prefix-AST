@@ -1,13 +1,13 @@
-Tema 1 - Prefix AST - IOCLA
+# Tema 1 - Prefix AST - IOCLA
 
-    Programul creeaza un arbore in care pune o expresie in forma poloneza prefixate si 
+   Programul creeaza un arbore in care pune o expresie in forma poloneza prefixate si 
 calculeaza rezultatul expresiei utilizand : o parcurgere in preordine a arborelui 
 utilizand o functie recursiva , o functie atoi care transforma caracterele in numere si
 un vector alaturi de stiva.
 
-Implementare
+**Implementare**
 
-    La implementare parcurg recursiv arborele apeland functia atoi care imi transforma in
+   La implementare parcurg recursiv arborele apeland functia atoi care imi transforma in
 numar valorile din arbore ,acolo unde este cazul punand intr-un vector valorile.
 La terminarea parcurgeri arborelui, parcurg vectorul invers si daca valoarea este egala
 cu un numar dau push pe stiva ,iar daca este egal cu un simbol din multimea {+,-,*,/} 
