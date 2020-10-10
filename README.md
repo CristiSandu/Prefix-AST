@@ -9,15 +9,18 @@ un vector alaturi de stiva.
 
    La implementare parcurg recursiv arborele apeland functia atoi care imi transforma in
 numar valorile din arbore ,acolo unde este cazul punand intr-un vector valorile.
+
 La terminarea parcurgeri arborelui, parcurg vectorul invers si daca valoarea este egala
 cu un numar dau push pe stiva ,iar daca este egal cu un simbol din multimea {+,-,*,/} 
 atunci sar la labe-ul corespunzator pentru fiecare operatie si dau pop la ultimele doua
-numere adaugate punand pe stiva rezultatul operatiei dintre cele doua .
+numere adaugate punand pe stiva rezultatul operatiei dintre cele doua.
+
 La finalul fiecarei operatii sar la un label unde decrementez ecx-ul si verific daca am
 terminat vectorul.
 In plus la operatia de impartire am verificat daca eax este negtiv sau pozitiv astfel 
 in cazul in care este negativ setez edx-ul cu 0xffffffff ,iar in cazul in care este 
 pozitiv setez prin xor-are edx la valoarea 0.
+
 La final printez ultimul element ramas in stiva care reprezinta rezultatul final al 
 operatiei.
 
