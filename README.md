@@ -5,7 +5,7 @@ calculeaza rezultatul expresiei utilizand : o parcurgere in preordine a arborelu
 utilizand o functie recursiva , o functie atoi care transforma caracterele in numere si
 un vector alaturi de stiva.
 
-**Implementare**
+## Implementare
 
    La implementare parcurg recursiv arborele apeland functia atoi care imi transforma in
 numar valorile din arbore ,acolo unde este cazul punand intr-un vector valorile.
