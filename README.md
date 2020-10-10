@@ -1,4 +1,4 @@
-# Tema 1 - Prefix AST - IOCLA
+# Tema 1 - Prefix AST - IOCLA 
 
    Programul creeaza un arbore in care pune o expresie in forma poloneza prefixate si 
 calculeaza rezultatul expresiei utilizand : o parcurgere in preordine a arborelui 
@@ -27,4 +27,6 @@ operatiei.
 La functia atoi am tratat separat numerele negative setand registrul edi cu 1 daca primul 
 element este '-' si urmatorul este diferit de '\0' negand numarul inainte de iesirea din 
 functie.
+
+### [Cerinta](https://ocw.cs.pub.ro/courses/iocla/teme/tema-1)
 
